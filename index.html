@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>     
+           
+        .container
+        {
+           max-width:960px;         
+            margin:0px auto;
+          
+        }
+        header
+        {
+            height:80px;
+          
+              border:1px solid green
+        }
+        nav
+        {
+            height:40px;
+            border:1px solid green;
+        }
+        aside
+        {
+            height:200px;
+            border:1px solid green;
+            width:30%;
+            float:left;
+        }
+        article
+        {
+            height:200px;
+            border:1px solid green;
+        }
+        footer
+        {
+            height:50px;
+            border:1px solid green;
+        }
+        @media screen and (max-width: 767px)
+            {
+            aside
+            {
+                float:none;
+                width:100%
+            }
+        }
+    </style>
+</head>
+    
+<body>
+    <div class="container">
+    <header>
+        header
+    </header>
+    <nav>
+        NAV
+    </nav>
+    <section>
+    <aside>
+        aside
+    </aside>
+    <article>
+        article
+    </article>
+    </section>
+    <footer>
+        footer
+    </footer></div>
+</body>
+</html>
